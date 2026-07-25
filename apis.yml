@@ -1,8 +1,12 @@
 aid: creator-stack
 name: Creator Stack
-description: 'Creator Stack is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'CreatorStack is a consumer creator-economy platform that helps independent creators own
+  their audience instead of renting it from social networks. Its core product, the "Superclub," lets a
+  creator build a membership community of paying super-fans, capture first-party audience data, and deepen
+  engagement and loyalty that translates into stronger brand sponsorships. A forthcoming Royalty product
+  will let creators share and sell royalties in their future content directly to the top fans who invest
+  early, in exchange for perks and exclusive benefits. Backed by Accel, CreatorStack positions a creator''s
+  brand and audience as a true, ownable asset on the internet rather than a rented one.'
 url: https://raw.githubusercontent.com/api-evangelist/creator-stack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,31 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.creatorstack.com/img/logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Creator Economy
+- Creators
+- Membership
+- Fan Engagement
+- Community
+- Content Monetization
+- Royalties
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/creator-stack-domain-security.yml
 - type: Website
   url: https://www.creatorstack.com/
+- type: SignUp
+  url: https://app.creatorstack.com
+- type: Support
+  url: mailto:hello@creatorstack.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
